@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(RobotHelloProject)
+set(CMake_CXX_SSTANDARD 11)
+set(CMAAKE_CXX_STANDARD_REQUIRED True)
+include_directories(HOTPOT_EXAM)
+add_executable(hello_func hello_func.cpp)
+add_executable(hello_class hello_class.cpp)
